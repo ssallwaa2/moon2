@@ -660,3 +660,63 @@ img {
 }
 
 }
+
+
+
+
+
+.sign .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.sign {
+    padding-bottom: 80px;
+    display:flex;
+    justify-content:center;
+}
+
+.sign p {
+    color: #595667;
+    padding-bottom: 24px;
+    padding-top: 80px;
+    font-family: var(--primaryfont);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.sign h2 {
+    color: rgb(42, 41, 41);
+    padding-bottom: 24px;
+}
+
+.sign form {
+    padding-bottom: 32px;
+}
+
+.sign button {
+    padding-bottom: 10px;
+    padding-top: 10px;
+      padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    background-color: white;
+    font-family: var(--primaryfont);
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+@media screen and (min-width: 0px) and (max-width: 1400px) {
+
+     .ecommerce .container{
+       display:flex;
+         flex-direction:column;
+         flex-grow: 0;
+         width:100%;   
+     }    
+}
