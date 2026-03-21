@@ -24,9 +24,9 @@ html {
 }
 
 
-.header a:hover{
-  color:#fe03b7;
-    
+.header a:hover {
+    color: #fe03b7;
+
 }
 
 
@@ -138,6 +138,11 @@ html {
         align-content: center;
     }
 
+    .header a:hover {
+        color: #fe03b7;
+
+    }
+
     .menu {
         display: flex;
         order: -1;
@@ -178,6 +183,31 @@ html {
 
     .shopping {
         display: flex;
+    }
+
+    .row .shopping a {
+        position: relative;
+    }
+
+    .shopping a::after {
+        content: '2';
+        position: absolute;
+        top: -14px;
+        left: 6px;
+        color: #3c0c0c;
+        background-color: #cc32cd;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        align-content: center;
+    }
+
+    .header a:hover {
+        color: #ff0aba;
+
     }
 
     .menu {
